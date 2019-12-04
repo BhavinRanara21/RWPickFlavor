@@ -11,6 +11,7 @@
 		8F2A4DB32394DFCB00033B03 /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2A4DA92394DFCB00033B03 /* RWPickFlavor.framework */; };
 		8F2A4DB82394DFCB00033B03 /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A4DB72394DFCB00033B03 /* RWPickFlavorTests.swift */; };
 		8F2A4DBA2394DFCB00033B03 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2A4DAC2394DFCB00033B03 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F720E9023978FA700D54908 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F720E8F23978FA700D54908 /* LabelView.swift */; };
 		8F8150402395164100F93E9C /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8150322395164100F93E9C /* ScoopCell.swift */; };
 		8F8150412395164100F93E9C /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8150332395164100F93E9C /* ScoopView.swift */; };
 		8F8150422395164100F93E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8150342395164100F93E9C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		8F2A4DB22394DFCB00033B03 /* RWPickFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2A4DB72394DFCB00033B03 /* RWPickFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFlavorTests.swift; sourceTree = "<group>"; };
 		8F2A4DB92394DFCB00033B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F720E8F23978FA700D54908 /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		8F8150322395164100F93E9C /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
 		8F8150332395164100F93E9C /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
 		8F8150352395164100F93E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		8F8150372395164100F93E9C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8F720E8F23978FA700D54908 /* LabelView.swift */,
 				8F8150382395164100F93E9C /* Flavor.swift */,
 			);
 			name = Models;
@@ -324,6 +327,7 @@
 				8F8150442395164100F93E9C /* Flavor.swift in Sources */,
 				8F8150452395164100F93E9C /* RGBAColorFromString.swift in Sources */,
 				8F8150412395164100F93E9C /* ScoopView.swift in Sources */,
+				8F720E9023978FA700D54908 /* LabelView.swift in Sources */,
 				8F8150432395164100F93E9C /* IceCreamView.swift in Sources */,
 				8F8150472395164100F93E9C /* PickFlavorViewController.swift in Sources */,
 			);
